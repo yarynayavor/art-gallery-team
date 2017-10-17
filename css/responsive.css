@@ -1,0 +1,96 @@
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	.carousel-caption p {
+		font-size: 12px;
+		font-family: 'Comfortaa', cursive;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.carousel-caption p {
+		font-size: 15px;
+		font-family: 'Comfortaa', cursive;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	.carousel-caption {
+		top:30%;
+	}
+
+	.carousel-caption p {
+		font-size: 18px;
+		font-family: 'Comfortaa', cursive;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	.carousel-caption {
+		top:25%;
+	}
+
+	
+	li.nav-item a.nav-link {
+		border-bottom: none;
+	}
+	
+	a.navbar-brand {
+		font-size: 25px;
+	}
+
+	li.nav-item a.nav-link {
+		font-size: 12px;
+		transition: all 0s ease;
+		-webkit-transition: all 0s ease;
+	}
+	
+	li.nav-item a.nav-link:hover {
+		background: none;
+		border-radius: 0;
+	}
+
+	.form-inline .form-control{
+		width: 100%;
+		font-size: 13px;
+		margin-top: 0;
+	}
+
+	#carouselExampleIndicators .carousel-inner{
+		height: 70vh;
+	}
+
+	.carousel-caption p {
+		font-size: 20px;
+		font-family: 'Comfortaa', cursive;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	a.navbar-brand {
+		font-size: 30px;
+	}
+
+	li.nav-item a.nav-link {
+		font-size: 16px;
+		transition: all 0s ease;
+		-webkit-transition: all 0s ease;
+	}
+
+	.carousel-caption p {
+		font-size: 22px;
+		font-family: 'Comfortaa', cursive;
+	}
+
+	.carousel-caption {
+		top:15%;
+	}
+	
+}
