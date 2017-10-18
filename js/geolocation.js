@@ -6,7 +6,7 @@ function success(position) {
     return;
   }
 
-  s.innerHTML = "found you!";
+  s.innerHTML = "Знайшли вас!";
   s.className = 'success';
 
   var mapcanvas = document.createElement('div');
