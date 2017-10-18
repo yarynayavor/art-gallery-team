@@ -14,6 +14,10 @@
 		font-size: 15px;
 		font-family: 'Comfortaa', cursive;
 	}
+	section.on-devices img {
+		margin: 0 auto;
+		text-align: center;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -27,16 +31,19 @@
 		font-size: 18px;
 		font-family: 'Comfortaa', cursive;
 	}
+	div.carousel-inner {
+		height: auto;
+	}
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
 	.carousel-caption {
-		top:25%;
+		top:15%;
 	}
 
-	
 	li.nav-item a.nav-link {
 		border-bottom: none;
 	}
@@ -61,15 +68,16 @@
 		font-size: 13px;
 		margin-top: 0;
 	}
-
-	#carouselExampleIndicators .carousel-inner{
-		height: 70vh;
-	}
-
 	.carousel-caption p {
 		font-size: 20px;
 		font-family: 'Comfortaa', cursive;
 	}
+
+	section.on-devices img {
+		width: 200px;
+		padding-left: 10px;
+	}
+
 }
 
 /* Large Devices, Wide Screens */
@@ -92,5 +100,15 @@
 	.carousel-caption {
 		top:15%;
 	}
+
+	div.carousel-inner {
+		height: 70vh;
+	}
+
+	section.on-devices img {
+		width: 250px;
+		padding-left: 10px;
+	}
+
 	
 }
